@@ -11,7 +11,7 @@ Game::Game(){
     
     tx=3;
     ty=0;
-    leftLine=1;
+    leftLine=40;
     start = std::chrono::steady_clock::now();
     mainT=arr[ rand()%8];
     nextT=arr[ rand()%8];
